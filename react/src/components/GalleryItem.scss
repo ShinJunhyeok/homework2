@@ -1,0 +1,16 @@
+.bigview {
+    ul {
+        li {
+            margin-right: 10px;
+            &:nth-child(5) {
+                margin-right: 0;
+            }
+            &:nth-child(10) {
+                margin-right: 0;
+            }
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+}

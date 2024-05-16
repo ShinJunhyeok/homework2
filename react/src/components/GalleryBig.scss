@@ -1,0 +1,22 @@
+.bigview {
+    .bigImg {
+        position: relative;
+        text-align: center;
+        display: none;
+        &.on {
+            display: block;
+        }
+        h2 {
+            font-size: 30px;
+            font-weight: 700;
+            position: absolute;
+            left: 50px;
+            top: 30px;
+            color: #fff;
+            text-shadow: 1px 2px 3px #000;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
